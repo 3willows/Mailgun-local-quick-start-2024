@@ -1,0 +1,7 @@
+curl -s --user 'api:CHANGE_THIS' \
+  	https://api.mailgun.net/v3/sandbox9bbf6d0dbdd14a1aac25af6db05fc464.mailgun.org/messages \
+  	-F from='Excited User <mailgun@sandbox9bbf6d0dbdd14a1aac25af6db05fc464.mailgun.org>' \
+  	-F 
+  	-F to=CHANGE_THIS \
+  	-F subject='Hello' \
+  	-F text='Testing some Mailgun awesomeness!'

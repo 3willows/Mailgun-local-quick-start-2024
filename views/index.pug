@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Mailgun quick start
+    script.
+      document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('emailForm')
+        form.addEventListener('submit', function(e) {
+          e.preventDefault(); // Prevent the default form submission
+          const emailAddress = document.getElementById('emailAddress').value;
+          window.location.href  = `/submit/${encodeURIComponent(emailAddress)}`;
+        });
+      });
+  body
+    p Welcome to a Mailgun form
+    form#emailForm(action="/submit/:emailAddress", method="GET")
+      label(for="emailAddress") Email
+      input(type="text", id="emailAddress", placeholder="your email")
+      button(type="submit") Send email
