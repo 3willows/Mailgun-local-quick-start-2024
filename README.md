@@ -6,7 +6,7 @@ Tutorials followed:
 - [How to send transactional email in a NodeJS app using the Mailgun API (2022)](https://www.mailgun.com/blog/email/how-to-send-transactional-email-in-a-nodejs-app-using-the-mailgun-api/)
 
 
-My write up is here(https://3willows.github.io/2024-07-19-mailgun-local-quickstart/).
+My write up is [here](https://3willows.github.io/2024-07-19-mailgun-local-quickstart/).
 
 Suggested order of reading:
 
